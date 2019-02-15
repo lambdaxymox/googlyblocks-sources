@@ -46952,10 +46952,28 @@ unicode = 0060;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Export sbix Table";
+value = 0;
+}
+);
 instanceInterpolations = {
 "3BA1B4B2-6ACF-4D2C-A9DD-A548EEBF9DB3" = 1;
 };
 name = Regular;
+},
+{
+customParameters = (
+{
+name = "Color Layers to SVG";
+value = 1;
+}
+);
+instanceInterpolations = {
+"3BA1B4B2-6ACF-4D2C-A9DD-A548EEBF9DB3" = 1;
+};
+name = SVG;
 }
 );
 manufacturerURL = "https://github.com/stallmanifold/googlyblocks-font";
